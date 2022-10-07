@@ -78,7 +78,7 @@ class quicksort {
                 // calling quickSort function
 		quickSort(arr, 0, p - 1);
 		System.out.println("Sorted array: ");
-		printArray(arr, p);
+		printArray(arr, p); //calling the method printArray();
 	}
 }
 
